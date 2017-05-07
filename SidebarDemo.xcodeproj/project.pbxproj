@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8407E1761EBA8F5D0065DCF9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407E1751EBA8F5D0065DCF9 /* SWRevealViewController.m */; };
+		849DDDA91EBF89030070F8DD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 849DDDA81EBF89030070F8DD /* README.md */; };
+		849DDDAB1EBF891E0070F8DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 849DDDAA1EBF891E0070F8DD /* LICENSE */; };
 		F4090B941A0F67D000651F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B931A0F67D000651F6F /* main.m */; };
 		F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B961A0F67D000651F6F /* AppDelegate.m */; };
 		F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B991A0F67D000651F6F /* ViewController.m */; };
@@ -19,6 +20,7 @@
 		F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BBF1A0FD5BC00651F6F /* PhotoViewController.m */; };
 		F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC21A0FD62A00651F6F /* MainViewController.m */; };
 		F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC51A0FD6F800651F6F /* SidebarTableViewController.m */; };
+		F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */; };
 		F4090BCC1A10563200651F6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4090BCB1A10563200651F6F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8407E1751EBA8F5D0065DCF9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		8407E1771EBA8F860065DCF9 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		849DDDA81EBF89030070F8DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = SidebarDemo/README.md; sourceTree = "<group>"; };
+		849DDDAA1EBF891E0070F8DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F4090B8E1A0F67D000651F6F /* SidebarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4090B921A0F67D000651F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4090B931A0F67D000651F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		F4090BC21A0FD62A00651F6F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F4090BC41A0FD6F800651F6F /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
 		F4090BC51A0FD6F800651F6F /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		F4090BC81A0FD76C00651F6F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		F4090BCB1A10563200651F6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -81,6 +85,8 @@
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
+				849DDDAA1EBF891E0070F8DD /* LICENSE */,
+				849DDDA81EBF89030070F8DD /* README.md */,
 				F4090BCB1A10563200651F6F /* MapKit.framework */,
 				F4090B901A0F67D000651F6F /* SidebarDemo */,
 				F4090BAA1A0F67D000651F6F /* SidebarDemoTests */,
@@ -150,8 +156,8 @@
 		F4090BC71A0FD74700651F6F /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8407E1771EBA8F860065DCF9 /* SWRevealViewController.h */,
-				8407E1751EBA8F5D0065DCF9 /* SWRevealViewController.m */,
+				F4090BC81A0FD76C00651F6F /* SWRevealViewController.h */,
+				F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			files = (
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
 				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
+				849DDDAB1EBF891E0070F8DD /* LICENSE in Resources */,
 				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +271,10 @@
 				F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */,
 				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,
 				F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */,
-				8407E1761EBA8F5D0065DCF9 /* SWRevealViewController.m in Sources */,
+				F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */,
 				F4090B941A0F67D000651F6F /* main.m in Sources */,
 				F4090BBD1A0FD53800651F6F /* MapViewController.m in Sources */,
+				849DDDA91EBF89030070F8DD /* README.md in Sources */,
 				F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */,
 				F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */,
 			);
