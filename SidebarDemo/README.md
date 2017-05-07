@@ -3,6 +3,11 @@ Slideout Sidebar Demo
 
 A simple demo on how to add a Slide-out Sidebar Menu in iOS Apps using SWRevealViewController (https://github.com/John-Lluch/SWRevealViewController)
 
+
+Change 1.2
+Project configuration
+.gitignore
+
 Change 1.1
 Add button in News view
 
